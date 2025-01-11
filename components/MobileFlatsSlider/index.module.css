@@ -1,0 +1,46 @@
+.container {
+}
+
+.img {
+    height: auto;
+    width: 100vw;
+}
+
+.slide {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.description {
+    background: #1D4A4F;
+    padding: 2rem 3rem;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.title {
+    font-family: Austin;
+    text-align: center;
+    color: #B28353;
+    margin-bottom: 2rem;
+}
+
+.text {
+    font-family: Kazimir;
+    text-align: justify;
+    color: #FFFFFF;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0.5rem;
+}
+
+.flatOl {
+    color: #ffffff;
+    margin: 0;
+    padding-left: 2rem;
+}

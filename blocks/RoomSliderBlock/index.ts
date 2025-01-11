@@ -1,0 +1,1 @@
+export { RoomSliderBlock } from "./RoomSliderBlock";

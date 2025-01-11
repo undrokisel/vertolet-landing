@@ -1,0 +1,199 @@
+.container {
+    position: relative;
+    background: #ffffff;
+    color: #000000;
+    width: 100%;
+    padding: 5rem 80px 0 80px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.container:before {
+    content: '';
+    position: absolute;
+    top: 38.3rem;
+    width: 0;
+    height: 0;
+    left: 0;
+    border-style: solid;
+    border-width: 15rem 0 15rem 15rem;
+    border-color: transparent transparent transparent #FDF8EF;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.descriptionContainer {
+    max-width: 735px;
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+}
+
+.title {
+    color: #B28353;
+    margin-bottom: 2.5rem;
+}
+
+.description {
+    text-align: justify;
+    margin-bottom: 2rem;
+    white-space: pre-line;
+}
+
+.advantagesContainer {
+    display: flex;
+}
+
+
+.advantage {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-right: 1px solid #B28353;
+    padding: 0 12px;
+}
+
+.advantage:last-child {
+    border-right: none;
+}
+.count {
+    margin-bottom: 24px;
+    color: #B28353;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.advantageTitle {
+    text-align: center;
+}
+
+
+.imgContainer {
+    position: relative;
+    width: 40%;
+}
+
+.secondImg {
+    position: relative;
+    bottom: 18%;
+    right: 45%;
+
+}
+
+.img {
+    width: 36vw;
+    height: auto;
+}
+
+.imgWithAdvantageContainer {
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.button {
+    margin-top: 2rem;
+}
+
+@media (max-width: 650px) {
+    .container {
+        position: relative;
+        background: #ffffff;
+        padding: 2rem 24px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+    }
+
+    .container:before {
+        content: '';
+        position: absolute;
+        top: 43rem;
+        width: 0;
+        height: 0;
+        left: 0;
+        border-style: solid;
+        border-width: 3rem 0 3rem 3rem;
+        border-color: transparent transparent transparent #FDF8EF;
+    }
+
+    .title {
+        color: #B28353;
+        margin-bottom: 16px;
+        font-size: 1.8rem;
+    }
+
+
+    .descriptionContainer {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+
+    .description {
+        font-family: Kazimir;
+        text-align: justify;
+        margin-bottom: 1rem;
+        color: #000000;
+    }
+
+    .imgWithAdvantageContainer {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .imgContainer {
+        height: 300px;
+        width: 90%;
+        left: 16px;
+        margin-bottom: 3rem;
+    }
+
+    .secondImg {
+        max-width: 80%;
+        height: auto;
+        bottom: 20%;
+        right: 12%;
+    }
+
+    .button {
+        display: none;
+    }
+
+    .count {
+        margin-bottom: 0;
+        font-size: 24px;
+    }
+
+    .advantage {
+        width: 33%;
+        height: 100px;
+        justify-content: space-evenly;
+        text-align: center;
+    }
+
+    .advantage:first-child {
+        padding-left: 0;
+    }
+
+    .advantage:last-child {
+        padding-right: 0;
+    }
+
+    .advantageTitle {
+        font-size: 16px;
+        line-height: 24px;
+        color: #000000;
+    }
+
+
+    .img {
+        width: 100%;
+        height: auto;
+    }
+}

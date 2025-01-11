@@ -1,0 +1,1 @@
+export { AdvantagesMobileBlock } from "./AdvantagesMobileBlock";

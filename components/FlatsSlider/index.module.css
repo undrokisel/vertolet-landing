@@ -1,0 +1,92 @@
+.container {
+    position: relative;
+    background: #ffffff;
+    min-height: 792px;
+    width: 100%;
+}
+
+.left {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    background: #B28353;
+    min-width: 346px;
+}
+
+.right {
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 100%;
+    background: #1D4A4F;
+    min-width: 70px;
+}
+
+.roomSizes {
+    background: #1D4A4F;
+    width: 35%;
+    padding: 24px 64px;
+    position: absolute;
+    left: 100px;
+    top: 50%;
+    translate: 0 -50%;
+}
+
+.title {
+    font-family: Austin;
+    /*font-size: 40px;*/
+    color: #B28353;
+    margin-bottom: 32px;
+}
+
+.text {
+    font-family: Kazimir;
+    /*font-weight: 300;*/
+    /*font-size: 24px;*/
+    font-size: 1rem;
+    color: #FFFFFF;
+}
+
+.img {
+    height: auto;
+    width: 50%;
+    max-width: 800px;
+    position: absolute;
+    right: 100px;
+    top: 50%;
+    translate: 0 -50%;
+}
+
+.swiper {
+    position: relative;
+    width: 100%;
+    height: 740px;
+}
+
+.swiper-slide {
+    position: relative;
+}
+
+.flatOl {
+    color: #ffffff;
+    font-size: 24px;
+}
+
+.roomCountTitle {
+    font-family: Austin;
+    /*font-size: 40px;*/
+    color: #B28353;
+    margin-bottom: 1rem;
+    /*margin-bottom: 24px;*/
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0.6rem;
+}
+
+.flatsContainer {
+
+}

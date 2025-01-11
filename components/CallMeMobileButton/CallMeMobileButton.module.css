@@ -1,0 +1,17 @@
+.content {
+    text-align: center;
+    font-size: 1.4rem;
+    line-height: 2rem;
+}
+
+.button {
+    bottom: 100%;
+    translate: none;
+    top: unset;
+    width: 80px;
+    height: 80px;
+}
+
+.buttonText {
+    font-size: 0.9rem;
+}

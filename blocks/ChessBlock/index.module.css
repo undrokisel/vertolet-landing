@@ -1,0 +1,57 @@
+.container {
+    width: 100%;
+    padding: 5rem 0 0 0;
+    overflow: hidden;
+    position: relative;
+}
+
+.blockTitle {
+    font-family: Austin;
+    text-align: center;
+    color: #B28353;
+    margin-bottom: 3rem;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 2rem;
+}
+
+.inverseRow {
+    flex-direction: row-reverse;
+}
+
+.element {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+    padding: 2rem;
+    background: rgba(217, 208, 191, 0.8);
+}
+
+.inverseText {
+    text-align: end;
+}
+
+.title {
+    font-family: Austin;
+    color: #B28353;
+    margin-bottom: 2rem;
+}
+
+.description {
+    font-family: Kazimir;
+    color: #000000;
+}
+
+.imageContainer {
+    width: 50%;
+}
+
+.image {
+    width: 100%;
+    height: 100%;
+}

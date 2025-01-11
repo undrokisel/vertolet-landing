@@ -1,0 +1,47 @@
+.container {
+    width: 101vw;
+    height: 101vh;
+    position: absolute;
+    top: 0;
+    left: -1px;
+    background: #ffffff;
+    padding: 24px;
+    transition: 0.5s ease-in-out left;
+}
+
+.hidden {
+    left: -110%;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.title {
+    font-family: Austin;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    color: #1D4A4F;
+}
+
+.navElement {
+    font-family: Austin;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 48px;
+    color: #1D4A4F;
+    border-bottom: 1px solid #1D4A4F;
+    margin-bottom: 16px;
+    padding-right: 10px;
+    width: fit-content;
+}
+
+.langContainer {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}

@@ -1,0 +1,1 @@
+export { FlatsSlider } from "./FlatsSlider";

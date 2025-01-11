@@ -1,0 +1,9 @@
+.container {
+    background: #ffffff;
+    width: 100%;
+    overflow: hidden;
+}
+
+.disabled {
+    position: fixed;
+}

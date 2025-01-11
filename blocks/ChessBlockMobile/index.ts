@@ -1,0 +1,1 @@
+export { ChessBlockMobile } from "./ChessBlockMobile";

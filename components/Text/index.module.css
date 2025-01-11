@@ -1,0 +1,29 @@
+.container {
+    font-family: Austin;
+    font-size: 1.2rem;
+    z-index: 10;
+    line-height: 2rem;
+}
+
+.kazimir {
+    font-family: Kazimir;
+}
+
+.title {
+    font-size: 3rem;
+}
+
+.clickable {
+    cursor: pointer;
+}
+
+@media (max-width: 650px) {
+    .container {
+        font-size: 1rem;
+        line-height: normal;
+    }
+
+    .title {
+        font-size: 2rem;
+    }
+}

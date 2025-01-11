@@ -1,0 +1,87 @@
+@keyframes jumpUp {
+    0% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-30px);
+    }
+}
+
+.container {
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+}
+
+.contentContainer {
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    z-index: 10;
+    width: 100vw;
+    background: linear-gradient(180deg, rgba(29, 74, 79, 0.81) 17.71%, #1D4A4F 60.94%, #1D4A4F 90.3%);
+    padding: 1rem 0;
+}
+
+.content {
+    text-align: justify;
+    color: #B28353;
+    font-size: 3rem;
+    line-height: 4rem;
+}
+
+.button {
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    background: #B28353;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    position: absolute;
+    right: 0%;
+    top: 50%;
+    translate: -50% -50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: ease-in-out 1.4s jumpUp infinite;
+    cursor: pointer;
+}
+
+.button:hover {
+    animation: none;
+}
+
+.buttonText {
+    text-align: center;
+    font-size: 1.2rem;
+    line-height: 1.4rem;
+    color: #ffffff;
+}
+
+@media (max-width: 650px) {
+
+    .contentContainer {
+    }
+
+    .content {
+        text-align: center;
+        font-size: 1.4rem;
+        line-height: 2rem;
+    }
+
+    .button {
+        bottom: 100%;
+        right: 5%;
+        translate: none;
+        top: unset;
+        width: 60px;
+        height: 60px;
+        background: #1D4A4F;
+    }
+
+    .buttonText {
+        font-size: 0.9rem;
+    }
+}

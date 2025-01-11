@@ -1,0 +1,1 @@
+export { MobileFlatsSlider } from "./MobileFlatsSlider";

@@ -1,0 +1,1 @@
+export { LocationMobileBlock } from "./LocationMobileBlock";

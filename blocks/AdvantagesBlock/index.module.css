@@ -1,0 +1,57 @@
+.container {
+    padding-top: 5rem;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 60px;
+}
+
+.row:last-child {
+    margin-bottom: 0;
+}
+
+.reversed {
+    flex-direction: row-reverse;
+}
+
+.textContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 80px;
+    text-align: right;
+    width: 40%;
+}
+
+.reversedContainer {
+    text-align: left;
+}
+
+.title {
+    font-family: Austin;
+    color: #B28353;
+    margin-bottom: 2.5rem;
+    line-height: 3rem;
+}
+
+.description {
+    font-family: Kazimir;
+    color: #000000;
+}
+
+.imgContainer {
+    width: 60%;
+    height: 100%;
+}
+
+.img {
+    height: auto;
+    max-width: 100%;
+}
+
+
+
+@media (max-width: 650px) {
+}
